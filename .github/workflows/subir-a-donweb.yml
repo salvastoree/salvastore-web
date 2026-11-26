@@ -11,8 +11,8 @@ jobs:
       - name: Subir por FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
-          server: ${{ secrets.FTP_SERVER }}
-          username: ${{ secrets.FTP_USERNAME }}
+          server: c2682256.ferozo.com
+          username: ftp@c2682256.ferozo.com
           password: ${{ secrets.FTP_PASSWORD }}
           server-dir: public_html/
           exclude: |
