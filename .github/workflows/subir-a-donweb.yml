@@ -14,6 +14,7 @@ jobs:
           server: c2682256.ferozo.com
           username: ftp@c2682256.ferozo.com
           password: ${{ secrets.FTP_PASSWORD }}
+          protocol: ftps
           server-dir: public_html/
           exclude: |
             **/.git*
